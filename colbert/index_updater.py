@@ -22,7 +22,7 @@ from colbert.indexing.codecs.residual_embeddings_strided import (
 from colbert.indexing.utils import optimize_ivf
 
 # For testing writing into new chunks, can set DEFAULT_CHUNKSIZE smaller (e.g. 1 or 2)
-DEFAULT_CHUNKSIZE = 25000
+DEFAULT_CHUNKSIZE = 10
 
 
 class IndexUpdater:
